@@ -1,0 +1,262 @@
+{
+  "score": {
+    "overall": 100,
+    "seo": 100,
+    "content": 100,
+    "ux": 100,
+    "accessibility": 96,
+    "trust": 100,
+    "performance": 100
+  },
+  "checks": [
+    {
+      "id": "seo.title.ok",
+      "category": "SEO",
+      "title": "Page title is present",
+      "status": "pass",
+      "severity": "low",
+      "message": "Title length is 37 characters.",
+      "recommendation": "Keep monitoring title relevance when content changes.",
+      "evidence": [
+        "Example AI Website Audit Landing Page"
+      ]
+    },
+    {
+      "id": "seo.meta.ok",
+      "category": "SEO",
+      "title": "Meta description is present",
+      "status": "pass",
+      "severity": "low",
+      "message": "Meta description length is 89 characters.",
+      "recommendation": "Keep it aligned with the page promise.",
+      "evidence": [
+        "A practical example landing page used to demonstrate the AI Website Audit CLI output format."
+      ]
+    },
+    {
+      "id": "content.h1.ok",
+      "category": "Content",
+      "title": "Single H1 found",
+      "status": "pass",
+      "severity": "low",
+      "message": "H1: Example AI Website Audit",
+      "recommendation": "Make sure the H1 matches the search and conversion intent.",
+      "evidence": [
+        "Example AI Website Audit"
+      ]
+    },
+    {
+      "id": "content.headings.ok",
+      "category": "Content",
+      "title": "Heading structure is usable",
+      "status": "pass",
+      "severity": "low",
+      "message": "Found 1 H1, 3 H2 and 1 H3 headings.",
+      "recommendation": "Keep headings descriptive rather than decorative.",
+      "evidence": []
+    },
+    {
+      "id": "ux.viewport.ok",
+      "category": "UX",
+      "title": "Viewport meta tag present",
+      "status": "pass",
+      "severity": "low",
+      "message": "width=device-width, initial-scale=1",
+      "recommendation": "Keep testing mobile layouts on real devices.",
+      "evidence": []
+    },
+    {
+      "id": "seo.canonical.ok",
+      "category": "SEO",
+      "title": "Canonical URL present",
+      "status": "pass",
+      "severity": "low",
+      "message": "https://example.com",
+      "recommendation": "Ensure the canonical points to the intended indexable URL.",
+      "evidence": [
+        "https://example.com"
+      ]
+    },
+    {
+      "id": "seo.robots.default",
+      "category": "SEO",
+      "title": "No robots meta override",
+      "status": "pass",
+      "severity": "low",
+      "message": "No page-level robots override was detected.",
+      "recommendation": "No action required unless you need explicit indexing rules.",
+      "evidence": []
+    },
+    {
+      "id": "accessibility.alt.some_missing",
+      "category": "Accessibility",
+      "title": "Some images missing alt text",
+      "status": "warn",
+      "severity": "medium",
+      "message": "1/3 images are missing alt text.",
+      "recommendation": "Review image alt attributes and fix priority images first.",
+      "evidence": []
+    },
+    {
+      "id": "performance.images.dimensions_ok",
+      "category": "Performance",
+      "title": "Image dimensions look acceptable",
+      "status": "pass",
+      "severity": "low",
+      "message": "1/3 images lack explicit dimensions.",
+      "recommendation": "Continue optimizing image layout stability.",
+      "evidence": []
+    },
+    {
+      "id": "conversion.cta.ok",
+      "category": "Conversion",
+      "title": "CTA or form detected",
+      "status": "pass",
+      "severity": "low",
+      "message": "Detected CTAs: Get started, Book a demo",
+      "recommendation": "Make sure the primary CTA is visually prominent and benefit-oriented.",
+      "evidence": [
+        "Get started",
+        "Book a demo"
+      ]
+    },
+    {
+      "id": "content.word_count.ok",
+      "category": "Content",
+      "title": "Readable content found",
+      "status": "pass",
+      "severity": "low",
+      "message": "About 620 words were extracted.",
+      "recommendation": "Keep copy scannable and focused.",
+      "evidence": []
+    },
+    {
+      "id": "content.paragraphs.ok",
+      "category": "Content",
+      "title": "Paragraph structure detected",
+      "status": "pass",
+      "severity": "low",
+      "message": "Detected 9 paragraphs.",
+      "recommendation": "Keep paragraphs short and conversion-oriented.",
+      "evidence": []
+    },
+    {
+      "id": "social.og.ok",
+      "category": "Social",
+      "title": "Open Graph metadata present",
+      "status": "pass",
+      "severity": "low",
+      "message": "Core Open Graph tags were found.",
+      "recommendation": "Keep social previews updated when positioning changes.",
+      "evidence": []
+    },
+    {
+      "id": "social.twitter.ok",
+      "category": "Social",
+      "title": "Twitter/X card metadata present",
+      "status": "pass",
+      "severity": "low",
+      "message": "Detected 1 Twitter card fields.",
+      "recommendation": "Preview social cards after major content updates.",
+      "evidence": []
+    },
+    {
+      "id": "seo.schema.ok",
+      "category": "SEO",
+      "title": "Structured data detected",
+      "status": "pass",
+      "severity": "low",
+      "message": "Detected schema: Organization, WebSite.",
+      "recommendation": "Validate structured data after changes.",
+      "evidence": [
+        "Organization",
+        "WebSite"
+      ]
+    },
+    {
+      "id": "trust.contact.ok",
+      "category": "Trust",
+      "title": "Contact path detected",
+      "status": "pass",
+      "severity": "low",
+      "message": "Email, phone, or form detected.",
+      "recommendation": "Make contact options easy to find and connect them to the CTA path.",
+      "evidence": []
+    },
+    {
+      "id": "trust.policies.ok",
+      "category": "Trust",
+      "title": "Basic legal/trust links detected",
+      "status": "pass",
+      "severity": "low",
+      "message": "Privacy and legal/terms-like signals were found.",
+      "recommendation": "Keep trust links visible in footer and checkout/contact flows.",
+      "evidence": []
+    },
+    {
+      "id": "accessibility.lang.ok",
+      "category": "Accessibility",
+      "title": "HTML language attribute present",
+      "status": "pass",
+      "severity": "low",
+      "message": "html lang='en'.",
+      "recommendation": "Ensure language switches are marked correctly on multilingual pages.",
+      "evidence": []
+    },
+    {
+      "id": "performance.weight.ok",
+      "category": "Performance",
+      "title": "HTML response size is reasonable",
+      "status": "pass",
+      "severity": "low",
+      "message": "HTML response size is about 142 KB.",
+      "recommendation": "Audit full page weight with Lighthouse for assets not downloaded by this CLI.",
+      "evidence": []
+    },
+    {
+      "id": "performance.timing.ok",
+      "category": "Performance",
+      "title": "Initial HTML fetch looks acceptable",
+      "status": "pass",
+      "severity": "low",
+      "message": "Initial HTML fetch took 310 ms.",
+      "recommendation": "Use browser-based tools for full Core Web Vitals validation.",
+      "evidence": []
+    },
+    {
+      "id": "content.text_ratio.ok",
+      "category": "Content",
+      "title": "Visible-text signal looks usable",
+      "status": "pass",
+      "severity": "low",
+      "message": "Text-to-HTML ratio is 13.4%.",
+      "recommendation": "Keep critical copy accessible without requiring complex client-side interactions.",
+      "evidence": []
+    },
+    {
+      "id": "conversion.faq.ok",
+      "category": "Conversion",
+      "title": "FAQ signal detected",
+      "status": "pass",
+      "severity": "low",
+      "message": "FAQ-like content or links were detected.",
+      "recommendation": "Use FAQs to remove objections near conversion points.",
+      "evidence": []
+    },
+    {
+      "id": "trust.social_proof.ok",
+      "category": "Trust",
+      "title": "Social proof signal detected",
+      "status": "pass",
+      "severity": "low",
+      "message": "Testimonials/reviews/reference-like signals were detected.",
+      "recommendation": "Keep social proof specific, credible, and close to CTAs.",
+      "evidence": []
+    }
+  ],
+  "quick_wins": [
+    "Some images missing alt text: Review image alt attributes and fix priority images first."
+  ],
+  "risk_flags": [],
+  "opportunities": []
+}

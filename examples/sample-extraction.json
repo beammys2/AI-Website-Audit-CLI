@@ -1,0 +1,88 @@
+{
+  "start_url": "https://example.com",
+  "pages": [
+    {
+      "url": "https://example.com",
+      "final_url": "https://example.com",
+      "status_code": 200,
+      "content_type": "text/html",
+      "title": "Example AI Website Audit Landing Page",
+      "title_length": 37,
+      "meta_description": "A practical example landing page used to demonstrate the AI Website Audit CLI output format.",
+      "meta_description_length": 89,
+      "canonical_url": "https://example.com",
+      "meta_robots": null,
+      "viewport": "width=device-width, initial-scale=1",
+      "html_lang": "en",
+      "h1": [
+        "Example AI Website Audit"
+      ],
+      "h2": [
+        "Features",
+        "Pricing",
+        "FAQ"
+      ],
+      "h3": [
+        "Fast setup"
+      ],
+      "internal_links": [
+        "https://example.com/about",
+        "https://example.com/privacy",
+        "https://example.com/terms"
+      ],
+      "external_links": [
+        "https://github.com/example/project"
+      ],
+      "broken_or_empty_links_count": 0,
+      "images_count": 3,
+      "images_missing_alt_count": 1,
+      "images_with_lazy_loading_count": 2,
+      "images_without_dimensions_count": 1,
+      "forms_count": 1,
+      "inputs_count": 2,
+      "buttons_count": 2,
+      "detected_ctas": [
+        "Get started",
+        "Book a demo"
+      ],
+      "open_graph": {
+        "og:title": "Example AI Website Audit",
+        "og:description": "Example audit page",
+        "og:image": "https://example.com/og.png"
+      },
+      "twitter_cards": {
+        "twitter:card": "summary_large_image"
+      },
+      "schema_types": [
+        "Organization",
+        "WebSite"
+      ],
+      "email_mentions": [
+        "hello@example.com"
+      ],
+      "phone_mentions": [],
+      "word_count": 620,
+      "paragraph_count": 9,
+      "readable_text": "Example AI Website Audit\nThis page explains the product, pricing, FAQ, trust proof and a clear call to action. Customers can book a demo or get started. Reviews and case studies are mentioned as social proof.",
+      "text_to_html_ratio": 13.4,
+      "page_size_bytes": 145000,
+      "load_time_ms": 310,
+      "has_cookie_banner_signal": true,
+      "has_privacy_signal": true,
+      "has_terms_signal": true,
+      "has_pricing_signal": true,
+      "has_testimonial_signal": true,
+      "has_faq_signal": true,
+      "technology_hints": [
+        "next.js",
+        "gtm"
+      ]
+    }
+  ],
+  "crawl_errors": [],
+  "total_word_count": 620,
+  "unique_schema_types": [
+    "Organization",
+    "WebSite"
+  ]
+}

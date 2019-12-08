@@ -1,0 +1,23 @@
+<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="420" rx="36" fill="#0B1020"/>
+  <circle cx="1090" cy="72" r="180" fill="#1D4ED8" opacity="0.22"/>
+  <circle cx="180" cy="340" r="220" fill="#7C3AED" opacity="0.20"/>
+  <rect x="72" y="72" width="1136" height="276" rx="28" fill="#111827" stroke="#334155" stroke-width="2"/>
+  <text x="110" y="158" fill="#E5E7EB" font-family="Inter, Arial, sans-serif" font-size="54" font-weight="800">AI Website Audit CLI</text>
+  <text x="112" y="214" fill="#94A3B8" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="500">Turn any public URL into a practical AI-powered website audit report.</text>
+  <rect x="112" y="252" width="210" height="48" rx="24" fill="#2563EB"/>
+  <text x="138" y="284" fill="white" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">OpenAI-powered</text>
+  <rect x="342" y="252" width="168" height="48" rx="24" fill="#1F2937" stroke="#475569"/>
+  <text x="372" y="284" fill="#CBD5E1" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Markdown</text>
+  <rect x="530" y="252" width="152" height="48" rx="24" fill="#1F2937" stroke="#475569"/>
+  <text x="570" y="284" fill="#CBD5E1" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">CLI</text>
+  <rect x="702" y="252" width="180" height="48" rx="24" fill="#1F2937" stroke="#475569"/>
+  <text x="730" y="284" fill="#CBD5E1" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">EN + DE</text>
+  <g transform="translate(1008 118)">
+    <rect width="120" height="120" rx="28" fill="#020617" stroke="#475569" stroke-width="2"/>
+    <path d="M35 78C42 54 55 41 83 35" stroke="#60A5FA" stroke-width="8" stroke-linecap="round"/>
+    <path d="M38 88L28 98" stroke="#A78BFA" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="88" cy="32" r="10" fill="#60A5FA"/>
+    <path d="M51 82L74 105" stroke="#E5E7EB" stroke-width="7" stroke-linecap="round"/>
+  </g>
+</svg>
